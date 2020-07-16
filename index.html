@@ -14,6 +14,28 @@
   </head>
   <body>
     <div class="container">
+      <!-- Navbar -->
+      <div class="open-navbar-icon navbar-icon center">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="navbar-wrapper">
+        <nav class="navbar">
+          <div class="close-navbar-icon navbar-icon center">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+          </div>
+          <div class="nav-list">
+            <a href="#" class="nav-link center">Home</a>
+            <a href="#" class="nav-link center">Tours</a>
+            <a href="#" class="nav-link center">About Us</a>
+            <a href="#" class="nav-link center">Offer</a>
+            <a href="#" class="nav-link center">Content</a>
+          </div>
+        </nav>
+      </div>
+
       <!-- Header -->
       <header class="header center">
         <div class="header-text">
@@ -116,6 +138,121 @@
           </div>
         </div>
       </section>
+
+      <!-- Stories section -->
+      <section class="stories">
+        <div class="video-container">
+          <video
+            class="bg-video"
+            autoplay
+            muted
+            loop
+            src="images/video.mp4"
+          ></video>
+        </div>
+
+        <div class="stories-wrapper">
+          <div class="story-bg">
+            <div class="story">
+              <img
+                src="images/story-img-1.jpg"
+                alt="Customer Image"
+                class="story-image"
+              />
+              <div class="story-text">
+                <h1 class="story-heading">
+                  These were the best days of this year!
+                </h1>
+                <p class="story-paragraph">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Velit expedita repudiandae quo officia in magnam iusto
+                  assumenda nihil quae blanditiis delectus, labore consequatur
+                  illo sunt tempore magni dolorum vero doloribus alias porro
+                  commodi, similique inventore perferendis adipisci. Est, unde
+                  adipisci!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="story-bg">
+            <div class="story">
+              <img
+                src="images/story-img-2.jpg"
+                alt="Customer Image"
+                class="story-image"
+              />
+              <div class="story-text">
+                <h1 class="story-heading">
+                  I enjoyed this great tour
+                </h1>
+                <p class="story-paragraph">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Velit expedita repudiandae quo officia in magnam iusto
+                  assumenda nihil quae blanditiis delectus, labore consequatur
+                  illo sunt tempore magni dolorum vero doloribus alias porro
+                  commodi, similique inventore perferendis adipisci. Est, unde
+                  adipisci!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact">
+        <h1 class="contact-heading">Contact Us</h1>
+        <form class="contact-form center">
+          <div class="input-group">
+            <label>Full Name *</label>
+            <input
+              type="text"
+              class="contact-input"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div class="input-groups">
+            <div class="input-group">
+              <label>Email *</label>
+              <input
+                type="email"
+                class="contact-input"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <div class="input-group">
+              <label>Phone</label>
+              <input
+                type="text"
+                class="contact-input"
+                placeholder="Enter Phone Number"
+              />
+            </div>
+          </div>
+          <div class="input-group">
+            <label>Message</label>
+            <textarea
+              class="form-textarea"
+              placeholder="You Message Here..."
+            ></textarea>
+          </div>
+          <input type="submit" value="Submit" class="form-btn" />
+        </form>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <div class="footer-list">
+          <a href="#" class="footer-link">Home</a>
+          <a href="#" class="footer-link">Tours</a>
+          <a href="#" class="footer-link">About Us</a>
+          <a href="#" class="footer-link">Offer</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+        <p class="footer-paragraph">
+          Copyright &copy; AcmeTech all rights reserved
+        </p>
+      </footer>
     </div>
 
     <script src="script.js"></script>
